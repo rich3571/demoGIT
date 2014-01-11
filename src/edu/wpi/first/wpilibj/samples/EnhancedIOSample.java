@@ -86,6 +86,11 @@ public class EnhancedIOSample extends IterativeRobot {
                     Math.abs(enhancedIO.getAcceleration(DriverStationEnhancedIO.tAccelChannel.kAccelY)) > 2.0) {
                 ledCounter = 0;
             }
+            
+            /*
+             * do something pointless
+            */
+            pointLess();
             /*
              * Switch modes when you shake the board along the z axis.
              */
@@ -114,6 +119,17 @@ public class EnhancedIOSample extends IterativeRobot {
         } catch (DriverStationEnhancedIO.EnhancedIOException ex) {
             System.out.println(ex.getMessage());
         }
+    }
+
+    /**
+     * Some pointless code
+     */
+    public void pointLess() {
+        int counting = 0;
+        for (int i = 0; i < 10; i++) {
+            counting = i;
+        }
+        
     }
 
     /**

@@ -91,6 +91,13 @@ public class EnhancedIOSample extends IterativeRobot {
              * do something pointless
             */
             pointLess();
+            
+            /*
+             * continue mainline development
+            */
+            if (1 == 1) {
+                pointLess();
+            }
             /*
              * Switch modes when you shake the board along the z axis.
              */

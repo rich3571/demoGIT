@@ -88,6 +88,13 @@ public class EnhancedIOSample extends IterativeRobot {
             }
             
             /*
+             * experiment with something pointless
+            */
+            for (int i = 5; i > 0; i--) {
+                pointLess();
+            }
+            
+            /*
              * do something pointless
             */
             pointLess();
